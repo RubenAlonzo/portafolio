@@ -1,64 +1,157 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
+
 <head>
-    	<meta charset="utf-8">
-		<title>Ruben Alonzo</title>
-		
-		<!-- external CSS link -->
-		<link rel="font-family" href="Lato/Lato-Regular.ttf">
-		<link rel="stylesheet" href="css/normalize.css">
-		<link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="favicon.ico" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Oxygen&family=Oxygen+Mono&display=swap" rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="./css/normalize.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Ruben Alonzo's Portafolio</title>
 </head>
 
 <body>
-	<div id="container">
-	<!-- START HERE --> 
+  <nav>
+    <ul>
+      <li>
+        <h1>
+          <a href="index.html"><span class="fas fa-code" aria-hidden="true"></span> Ruben Alonzo</a>
+        </h1>
+      </li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li>
+        <a href="https://www.linkedin.com/in/ruben-alonzo/" target="_blank">
+          <span class="fab fa-linkedin" aria-hidden="true"></span>
+          <span class="sr-only">LinkedIn</span>
+        </a>
+      </li>
+      <li>
+        <a href="https://github.com/RubenAlonzo" target="_blank">
+          <span class="fab fa-github-square" aria-hidden="true"></span>
+          <span class="sr-only">Github</span>
+        </a>
+      </li>
+      <li>
+        <a href="https://drive.google.com/file/d/1K-LnDFvkiksmFDhuU2UFmj5gfZchf0ry/view?usp=sharing" target="_blank"
+          class="button">Resume</a>
+      </li>
+    </ul>
+  </nav>
 
-		<h1>Ruben Alonzo</h1>
-		<img id="perfil" src="img/rostro.png" alt="perfil">
-		<h2 id="primerSub">Perfil profesional</h2>
-
-		<p>Soy una persona efectiva y diligente, 
-		siempre estoy dispuesto a aprender nuevas cosas,
-		 me gusta innovar y aportar soluciones </p>
-
-		<p>Desempeñé el cargo de principal encargado en 
-		 Soporte TI y mantenimiento de equipos en el 
-		 departamento Refurbished de la empresa
-		<a href="https://www.omega.com.do/" target="_blank">OmegaTech</a>. 
-		 Entre mis asignaciones concurrentes están:</p>
-
-		<ul>
-			<li>Supervisión y mantenimiento de Servidores de Instalación de O.S.</li>
-			<li>Diagnóstico y reparación de equipos tecnológicos tanto del departamento como de otras sucursales</li>
-			<li>Mantenimiento de equipos informáticos</li>
-		</ul>
-
-		<div id="redes">
-			<a href="https://web.facebook.com/rubendario.alonzo" target="_blank">
-				<img src="img/facebook_icon.png" alt="facebook">
-			</a>
-
-			<a href="https://www.youtube.com/channel/UCFgw4apMTJIqbCervwayj0A/featured?view_as=subscriber" target="_blank">
-				<img src="img/youtube_icon.png" alt="youtube">
-			</a>
-
-			<a href="https://www.linkedin.com/in/rub%C3%A9n-dar%C3%ADo-alonzo-beltre-16351a1ab/" target="_blank">
-				<img src="img/linkedin_icon.png" alt="linedIn">
-			</a>
-		</div>
-
-		
-	<!-- END HERE --> 
-	</div><!-- #container --> 
-
-	<div id="video">
-		<h2>Proyecto en desarrollo</h2>
-		<iframe width="674" height="379" src="https://www.youtube.com/embed/0hsK1-36f0E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-	</div>
+  <section id="intro">
+    <p class="name">Hi, my name is <span>Ruben Alonzo.</span></p>
+    <h2>I develop software solutions.</h2>
+    <p>
+      I'm a software developer specializing in web development with .NET
+      technologies.
+    </p>
+    <p>
+      Currently, I'm building educational platforms for a 
+      <a href="https://www.cyberwarrior.com/" target="_blank">CyberSecurity company</a>.
+    </p>
+  </section>
+  <div class="gradient"></div>
+  <div class="section-blue">
+    <section id="projects">
+      <h2>Projects I'm proud of</h2>
+      <article>
+        <div class="text">
+          <h4>More Useful Project</h4>
+          <h3>Workout Planner</h3>
+          <p class="blackbox">
+            <strong>Mobile App for creating and follow alone workout routines</strong>. Created in Android Studio using Java ans SQLite as a personal project for managing 
+            my Workout routines. It allows to create fully custom routines that can be follwed during trainning, so we don't have to worry about counting sets and time.
+          </p>
+          <h4>Technologies used include:</h4>
+          <ul>
+            <li>Java</li>
+            <li>SQLite</li>
+            <li>Android Studio</li>
+          </ul>
+        </div>
+        <img src="./img/WorkoutPlanner1.jpg"
+          alt="Screenshot of the Wall of Wonder." />
+      </article>
+      <article class="reverse">
+        <div class="text">
+          <h4>First Full Project</h4>
+          <h3>Loan Manager</h3>
+          <p class="blackbox">
+            <strong>Desktop application to manage loans and clients</strong>. Created using Windows Forms, this was my first full project where I was able to implement a real solution for a need
+            which also has its own <a href="https://youtu.be/0hsK1-36f0E">video demo here</a>.
+          </p>
+          <h4>Technologies used include:</h4>
+          <ul>
+            <li>C#</li>
+            <li>SQL Server</li>
+            <li>Windows Forms</li>
+          </ul>
+        </div>
+        <img src="./img/Prestamos.PNG"
+          alt="Screenshot of the Frontend Masters Bootcamp." />
+      </article>
+      <article>
+        <div class="text">
+          <h4>Most Proud Of</h4>
+          <h3>Social Media</h3>
+          <p class="blackbox">
+            <strong>Social media website with event manager</strong>. This project was build using vanilla PHP, MySql and pure HTML, JavaScript and Boostrap. 
+            It allows users to register, login, add friends, create posts with image support and create and manage events which can be shared with your friends! 
+          </p>
+          <h4>Technologies used include:</h4>
+          <ul>
+            <li>PHP</li>
+            <li>MySql</li>
+            <li>Nginx</li>
+          </ul>
+        </div>
+        <img src="./img/SocialMedia.PNG"
+          alt="Screenshot of the Wall of Wonder Collections." />
+      </article>
+    </section>
+  </div>
+  <div class="gradient"></div>
+  <div class="section-plum">
+    <section id="contact">
+      <h2>Contact me</h2>
+      <p>
+        I'm always interested in hearing about new project ideas, building solutions, or any new collaboration purpose.
+      </p>
+      <p><a href="mailto:ralonzo29@hotmail.com" class="button">Email me</a></p>
+    </section>
+  </div>
+  <div class="gradient"></div>
+  <footer>
+    <h2>Ruben Alonzo &middot; Developer</h2>
+    <ul>
+      <li>
+        <a href="https://www.linkedin.com/in/ruben-alonzo/" target="_blank">
+          <span class="fab fa-linkedin" aria-hidden="true"></span>
+          <span class="sr-only">LinkedIn</span>
+        </a>
+      </li>
+      <li>
+        <a href="https://github.com/RubenAlonzo" target="_blank">
+          <span class="fab fa-github-square" aria-hidden="true"></span>
+          <span class="sr-only">Github</span>
+        </a>
+      </li>
+      <li>
+        <a href="mailto:ralonzo29@hotmail.com">
+          <span class="fas fa-envelope" aria-hidden="true"></span>
+          <span class="sr-only">Email</span>
+        </a>
+      </li>
+    </ul>
+    <p><small>&copy; 2022 Ruben Alonzo. All rights reserved.</small></p>
+  </footer>
 </body>
+
 </html>
-
-
-
-

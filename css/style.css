@@ -91,6 +91,7 @@ img {
 #intro .name {
   font-family: var(--mono);
   font-size: 1rem;
+  margin-bottom: unset;
 }
 
 .name span {
@@ -99,12 +100,16 @@ img {
   color: var(--aqua);
   display: block;
   font-weight: 300;
+  margin-top: unset;
 }
 
 #intro h2 {
   font-size: 4rem;
 }
 
+#intro p:last-child {
+  margin: 3rem 0;
+}
 
 /* contact section */
 
@@ -183,6 +188,16 @@ nav [class*="fa-"]:hover {
   background-color: var(--hotmag);
 }
 
+.button-flat {
+  background-color: transparent;
+  border-style: solid;
+  border-color: var(--magenta);
+  border-width: thin;
+}
+
+.button-cta {
+  padding: 1rem;
+}
 
 /* projects section */
 
